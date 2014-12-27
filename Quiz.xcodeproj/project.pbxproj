@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		15A45A551A4F369F00B61472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A45A541A4F369F00B61472 /* main.m */; };
 		15A45A581A4F369F00B61472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A45A571A4F369F00B61472 /* AppDelegate.m */; };
-		15A45A5B1A4F369F00B61472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A45A5A1A4F369F00B61472 /* ViewController.m */; };
-		15A45A5E1A4F369F00B61472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A45A5C1A4F369F00B61472 /* Main.storyboard */; };
 		15A45A601A4F369F00B61472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A45A5F1A4F369F00B61472 /* Images.xcassets */; };
-		15A45A631A4F369F00B61472 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A45A611A4F369F00B61472 /* LaunchScreen.xib */; };
 		15A45A6F1A4F369F00B61472 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A45A6E1A4F369F00B61472 /* QuizTests.m */; };
+		15A45A7B1A4F37BA00B61472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A45A791A4F37BA00B61472 /* ViewController.m */; };
+		15A45A7C1A4F37BA00B61472 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A45A7A1A4F37BA00B61472 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		15A45A541A4F369F00B61472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15A45A561A4F369F00B61472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15A45A571A4F369F00B61472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15A45A591A4F369F00B61472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15A45A5A1A4F369F00B61472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		15A45A5D1A4F369F00B61472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15A45A5F1A4F369F00B61472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		15A45A621A4F369F00B61472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		15A45A681A4F369F00B61472 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A45A6D1A4F369F00B61472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15A45A6E1A4F369F00B61472 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		15A45A781A4F37BA00B61472 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15A45A791A4F37BA00B61472 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15A45A7A1A4F37BA00B61472 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +81,10 @@
 			children = (
 				15A45A561A4F369F00B61472 /* AppDelegate.h */,
 				15A45A571A4F369F00B61472 /* AppDelegate.m */,
-				15A45A591A4F369F00B61472 /* ViewController.h */,
-				15A45A5A1A4F369F00B61472 /* ViewController.m */,
-				15A45A5C1A4F369F00B61472 /* Main.storyboard */,
+				15A45A781A4F37BA00B61472 /* ViewController.h */,
+				15A45A791A4F37BA00B61472 /* ViewController.m */,
+				15A45A7A1A4F37BA00B61472 /* ViewController.xib */,
 				15A45A5F1A4F369F00B61472 /* Images.xcassets */,
-				15A45A611A4F369F00B61472 /* LaunchScreen.xib */,
 				15A45A521A4F369F00B61472 /* Supporting Files */,
 			);
 			path = Quiz;
@@ -199,8 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A45A5E1A4F369F00B61472 /* Main.storyboard in Resources */,
-				15A45A631A4F369F00B61472 /* LaunchScreen.xib in Resources */,
+				15A45A7C1A4F37BA00B61472 /* ViewController.xib in Resources */,
 				15A45A601A4F369F00B61472 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A45A5B1A4F369F00B61472 /* ViewController.m in Sources */,
+				15A45A7B1A4F37BA00B61472 /* ViewController.m in Sources */,
 				15A45A581A4F369F00B61472 /* AppDelegate.m in Sources */,
 				15A45A551A4F369F00B61472 /* main.m in Sources */,
 			);
@@ -242,25 +238,6 @@
 			targetProxy = 15A45A691A4F369F00B61472 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		15A45A5C1A4F369F00B61472 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15A45A5D1A4F369F00B61472 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		15A45A611A4F369F00B61472 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15A45A621A4F369F00B61472 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		15A45A701A4F369F00B61472 /* Debug */ = {
